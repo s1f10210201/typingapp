@@ -1,0 +1,37 @@
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  background-image: url('images/end-background1.png'); /* 画像ファイルのパスを指定 */
+  background-size: cover; /* 画面いっぱいに表示 */
+  background-position: center; /* 中央に配置 */
+  background-repeat: no-repeat; /* 繰り返しなし */
+  font-family: "Poppins", sans-serif;
+}
+
+.score{
+    display: flex;
+    flex-direction: column; /* 子要素を縦に並べる */
+    align-items: center; /* 子要素を中央に配置 */
+    text-align: center; /* 子要素内のテキストを中央に配置 */
+    color: white;
+}
+
+.restart{
+    background-color: rgb(28, 1, 72);
+    font-size: 1.3rem; /* フォントサイズを小さく変更 */
+    font-weight: 400; /* font-weightを400に変更（50は無効な値） */
+    padding: 0.5rem; /* パディングを小さく変更 */
+    border-radius: 0.3rem; /* ボーダーの角丸を小さく変更 */
+    width: 100px;
+    max-width: 90%;
+    box-shadow: 1px 3px 4px rgb(80, 80, 80); /* box-shadowを小さく変更 */
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    
+}

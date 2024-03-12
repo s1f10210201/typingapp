@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Zen+Antique&display=swap");
+
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url('images/start.png');
+  background-size: cover; /* 画面いっぱいに表示 */
+}
+
+.start{
+  background-color: rgb(93, 183, 235);
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 100;
+  left:20px;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 350px;
+  max-width: 90%;
+  box-shadow: 1px 5px 6px rgb(80, 80, 80);
+  text-decoration: none; /* 下線をなしに */
+  display: inline-block; /* ブロック要素として表示 */
+  color: black; /* テキストの色を黒に変更 */
+  font-family: "Poppins", sans-serif; /* フォントの指定（例：Arial） */
+}
+
+.start:hover {
+    background-color: rgb(63, 153, 205); /* ホバー時の色の変更 */
+  }
+
+p {
+    padding-top: 20px;
+    color: white; /* テキストの色を白に設定 */
+    text-align: center; /* テキストを中央寄せに設定 */
+    margin: 10px 0; /* マージンを追加して要素を少し離す */
+  }
+
+.conainer{
+    display: flex;
+}
+
